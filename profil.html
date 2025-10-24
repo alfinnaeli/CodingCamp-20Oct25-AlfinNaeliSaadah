@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Website Saya</title>
+</head>
+<body>
+    <header>
+        <div class="logo" title="Logo">
+            <img src="https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1.aliyuncs.com/company-logo/4b10372d91a2f17b4526c49731900721.png" alt="Logo">
+        </div>
+        <nav>
+            <button type="button">Home</button>
+            <button type="button">Our Profile</button>
+            <button type="button">Portfolio</button>
+            <button type="button">messege</button>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="welcome-text">Hi, Welcome To Website</div>
+            <div class="welcome-subtext">Ini adalah website sederhana pertama</div>
+            <div class="image-placeholder">
+                <img src="#" alt="Foto 1366*579 px">
+            </div>
+        </section>
+        <section class="headquarter-section" aria-label="Our Headquarter">
+            <div class="headquarter-title">Our Headquarter</div>
+            <div class="headquarter-list">
+                <div>
+                    <div class="hq-circle" style="background-image: url('https://ekaputrawisata.com/wp-content/uploads/2025/01/Monas-National-Monument-A-Complete-Guide-to-Indonesias-Iconic-Landmark-in-Jakarta-1.webp');"></div>
+                    <div class="hq-label">Jakarta</div>
+                </div>
+                <div>
+                    <div class="hq-circle" style="background-image: url('https://asset.kompas.com/crops/GEIiQSsEkCKrIGWEjOp_GaYHIHA=/0x0:1000x667/1200x800/data/photo/2022/07/25/62dec6809a479.jpg');"></div>
+                    <div class="hq-label">Bandung</div>
+                </div>
+                <div>
+                    <div class="hq-circle" style="background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*-9bpP43IWp4vFzDiKN49nA.jpeg');"></div>
+                    <div class="hq-label">Surabaya</div>
+                </div>
+            </div>
+        </section>
+        <section class="message-section" aria-label="Contact form and message">
+            <form class="message-left" id="contactForm">
+                <h3>Message Us</h3>
+                <div class="form-group">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                    <label for="tgl">Tanggal Lahir</label>
+                    <input type="date" id="tgl" name="tgl" required />
+                </div>
+                <div class="form-group">
+                    <label>Jenis Kelamin</label>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="gender" value="Laki-Laki" required /> Laki-Laki
+                        </label>
+                        <label>
+ *                           <input type="radio" name="gender" value="Perempuan" /> Perempuan
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="pesan">Pesan</label>
+                    <textarea id="pesan" name="pesan"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="message-right" id="messageOutput"></div>
+        </section>
+    </main>
+
+    <footer>
+        Created By RevoU
+    </footer>
+
+    <script src="/js/scrip.js"></script>
+
+</body>
+</html>
